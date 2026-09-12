@@ -1,0 +1,1 @@
+console.log("mantap man kau memang terbaik man")
