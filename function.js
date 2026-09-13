@@ -1,4 +1,5 @@
 let nama = "sakti"
-function sapa(sakti) {
+function sapa(nama) {
     console.log("hallo" + nama);
 }
+sapa("sakti")
