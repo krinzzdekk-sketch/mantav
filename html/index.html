@@ -12,11 +12,20 @@
     </div>
     </h3>
     <p>say adalah sakti</p>
-    <form action="">
-        <input type="date">
-        <button type="submit">klik</button>
-    </form>
+    <div>
+        <input type="number" name="" id="a" placeholder="masukan angka">
+        <input type="number" name="" id="b" placeholder="masukan angka">
+        <button onclick="enter()">enter</button>
+    </div>
     <p>sakti</p>
     <script src="main.js"></script>
+    <script>
+
+        function enter(){ 
+        var a = parseFloat(document.getElementById("a").value);
+        var b = parseFloat(document.getElementById("b").value);
+            alert(a+b)
+        } 
+    </script>
 </body>
 </html>
